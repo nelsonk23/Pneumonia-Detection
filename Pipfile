@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+#
+# 7/19/2025: from project folder, run `pipenv shell --anyway` to create new pipenv shell for project.
+# Select it as the python environment for the jupyter notebook (running in editor or in browser).
+
+[packages]
+tensorflow = "*"
+matplotlib = "*"
+scikit-learn = "*"
+seaborn = "*"
+keras-tuner = "*"
+scikeras = "*"
+
+[dev-packages]
+ipykernel = "*"
+notebook = "*"
+
+[requires]
+python_version = "3.12"
